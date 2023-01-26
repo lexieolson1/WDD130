@@ -1,0 +1,19 @@
+body{background-color: palevioletred; font-size: large;}
+header{text-align: center;
+    margin: 25px 450px;}
+main{text-align: left;
+    margin: 25px 450px;}
+div {text-align: center;
+    margin: 25px 450px;}
+footer{text-align: center;
+    margin: 25px 450px;}
+
+    .button { color: white; text-decoration: none; size: 2em;}
+    .button:hover { color: black; text-decoration: none;}
+
+h1{color: white; font-size: 24px;}
+h2{color: white; font-size: 30px; font-family: 'Times New Roman', Times, serif;}
+h4{color: black; font-size: 6;font-family: Arial, Helvetica, sans-serif;}
+h5{color: white; font-size: 18px; font-family: Arial, Helvetica, sans-serif;}
+p{color: white; font-size: 12px; font-family: 'Times New Roman', Times, serif;}
+ol{color: black; font: size 18px; font-family: Arial, Helvetica, sans-serif;}
