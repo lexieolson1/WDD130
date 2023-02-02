@@ -1,0 +1,30 @@
+/* Blocks */
+header{
+    background-image: url(https://byui-wdd.github.io/wdd130/ice/w05_circles.jpg); 
+    background-size: contain;
+    background-color: grey;
+    padding: 100px 100px 240px;
+    text-align: center;
+    margin: 0px 380px 0px;
+}
+
+
+main{
+    background-color: rgb(73, 81, 81);
+    text-align: center;
+    padding: 25px;
+    margin: 0px 380px 0px}
+
+/* Images */
+.desk{width: 175px; 
+    border-radius: 50%;
+    border: 10px solid rgb(50, 48, 48);
+    margin: 0px 20px 0px;}
+.graphic{width: 175px; 
+    border-radius: 50%;
+    border: 10px solid rgb(50, 48, 48);
+    margin: 0px 20px 0px;}
+.person{width: 175px; 
+    border-radius: 50%;
+    border: 10px solid rgb(50, 48, 48);
+    margin: 0px 20px 0px;}
