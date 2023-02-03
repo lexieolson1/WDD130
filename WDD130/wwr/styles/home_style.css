@@ -1,48 +1,87 @@
-/* Alignment and Margins */
+/* SPECIFICALLY headings and paragraphs */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+h1{font-family: "Bebas Neue", Arial, Helvetica;}
+h2{font-family: "Bebas Neue";
+    margin: 0;}
+h3{font-family: "Bebas Neue", Arial, Helvetica, sans-serif;}
+h4{font-family: "Bebas Neue", Arial, Helvetica, sans-serif;}
+p{font-family: "Open Sans", Helvetica, sans-serif;}
+
+body{
+    background-color: white;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;}
+
+/* HEADER */
+header{background-color: #395C6B;
+    padding: 2%;}
 #content{max-width: 1600px;
     margin: 0 auto;}
 nav a{text-align: center;
     color: white;
-    text-decoration: none;}
+    text-decoration: none;
+    padding: 35px;}
 nav a:hover{background-color: #8DE4FF;
     color: #395C6B;}
+.logo{width: 80px;
+    padding-left: 5px;}
+
+/* Hero Box */
 #hero-message h1{text-align: center;}
 #hero-message h4{text-align: center;}
-.button-box{text-align: center;}
-main section{text-align: center;}
-#background{height: 725px;
+#background{
+    height: 725px;
     background-color:#395C6B;}
+.hero-title{
+    font-size: 3em;
+    color: #395C6B;
+    margin-top: 10px;}
+.hero-sub-title{color: #395C6B;}
+.button-box{text-align: center;}
 
-/*background colors*/
-body{ background-color: white;}
-header{background-color: #395C6B;}
-.book{background-color: #F7F79E;
-    color: #7FD342; text-decoration: none;}
-.join{background-color: #7FD342;
-    color: #F7F79E;
-    text-decoration: none;}
-.book:hover{background-color: white;
-    color: #2F4B26;}
-.join:hover{background-color:#8DE4FF;
-    color: white;}
-.msg{background-color: #F7F79E;}
-footer{background-color: #395C6B;
-    color: white;}
 
-/*foreground colors*/
-.home-title h4{color: #395C6B;}
-.msg h2{color:#395C6B;}
-.msg p{color: #F7F79E;}
+/* Main */
+main section{text-align: center;}
+main section image{
+    box-sizing: border-box;
+    border: 10px solid black;}
+.icon{width: 80px;
+    padding-top: 10px;}
+.msg{
+    color: #395C6B;
+    background-color: #F7F79E;
+    line-height: 1.5em;
+    padding: 35px;}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;}
+.join, .book{
+    background-color: #2F4B26;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;}
+.join:hover, .book:hover{
+    background-color:#8DE4FF;
+    color: white;}
+.rafting-card{margin: 200px 0;}
+.renting-card{margin: 200px 0;}
+.tourguide-card{margin: 200px 0;}
+
+    /* Footer*/
+footer{
+    background-color: #395C6B;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;}
+.social-media{width: 80px;
+    padding-top: 15px;}
 footer a{color: #F7F79E;
     text-decoration: none;}
 footer a:hover{color: white;}
-
-/*Image Width*/
-.logo{width: 80px;}
-.icon{width: 80px;}
-.social-media{width: 80px;}
-
-/* Texts */
 footer p{font-size: 1.2em;}
 footer p a:hover{text-decoration: underline;}
 
