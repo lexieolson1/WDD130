@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+image{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+h1{
+    font-size: 100px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+h2{
+    color: firebrick;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
