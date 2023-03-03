@@ -159,6 +159,31 @@ footer a:hover{color: white;}
 footer p{font-size: 1.2em;}
 footer p a:hover{text-decoration: underline;}
 
+/* FAQ page CSS */
+main, .faq-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+}
+.faq-text{
+    margin-left: 25.74px;
+    margin-right: 35px;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.faq-title{
+    font-size: 6em;
+    color: #7FD342;
+}
+.faq-subheading{
+    color: #7FD342;
+}
+.faq-paragraph{
+    font: 12px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
