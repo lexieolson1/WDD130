@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&family=Dosis:wght@200&display=swap');
+
+h1{font-family: "Astloch", Arial, Helvetica;}
+h2{font-family: "Astloch";
+    margin: 0;}
+h3{font-family: "Astloch", Arial, Helvetica, sans-serif;}
+h4{font-family: "Dosis", Arial, Helvetica, sans-serif;}
+p{font-family: "Dosis", Helvetica, sans-serif;}
+
+body{
+    background-color: white;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;}
