@@ -12,3 +12,112 @@ body{
     font-size: 22px;
     padding: 0;
     margin: 0;}
+
+/* HEADER */
+header{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 75 px;
+    grid-template-columns: 150px 1fr 1fr;
+}
+nav{display: flex;
+    justify-content: space-around;}
+nav a{text-align: center;
+    color: #87ff65;
+    text-decoration: none;
+    background-color: black;
+    padding: 35px;}
+nav a:hover{background-color: #D81e5b;
+    color: white;}
+.logo{width: 80px;
+    margin: 15px;
+    padding-left: 5px;
+    justify-self: center;
+    align-self: center;}
+.headerh1{
+    color: #87ff65;
+}
+
+/* HERO */
+#hero{
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;}
+.pinkhair{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/5;
+    grid-row: 1/4;}
+.hero-message{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 4rem;
+    color: #456990;}
+
+/* MAIN HOME-GRID */
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    margin: 20px;}
+.green-rockers{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;}
+.msg1-background{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    grid-column: 3/12;
+    grid-row: 1/2;
+    margin-top: 50px;}
+.msg1{
+    color: #87ff65;
+    grid-column: 3/12;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;}
+.brushes{
+    width: 100%;
+    height: 100%;
+    grid-column: -1/-4;
+    grid-row: 2/3;
+    z-index: -1;}
+.msg2-background{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    grid-column: -3/-12;
+    grid-row: 2/3;
+    margin-top: 50px;}
+.msg2{
+    color: #D81e5b;
+    grid-column: -3/-12;
+    grid-row: 2/3;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: #87ff65;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+.social-media{width: 80px;
+    padding-top: 15px;}
+footer a{color: #87ff65;
+    text-decoration: none;}
+footer a:hover{color: #D81e5b;}
+footer p{font-size: 1.2em;}
+footer p a:hover{text-decoration: underline;}
