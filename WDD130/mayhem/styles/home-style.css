@@ -36,6 +36,7 @@ header{
     margin-top: 4%;
     text-decoration: none;
     font-size: 1em;
+    font-family: "Dosis", Helvetica, sans-serif;
   }
   
   /* Change the color of links on hover */
@@ -173,3 +174,109 @@ footer a{color: #87ff65;
 footer a:hover{color: #D81e5b;}
 footer p{font-size: 1.2em;}
 footer p a:hover{text-decoration: underline;}
+
+/* -------------- */
+/* SHOP PAGE CSS */
+/* Header */
+#shop-title{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10%;
+}
+.title-image{
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.title-message{
+    grid-row: 1/2;
+    text-align: left;
+    grid-column: 1/2;
+    color: #D81e5b;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 3em;
+}
+
+/* Main */
+
+main, .shop-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;}
+main section{text-align: center;}
+main section image{
+    box-sizing: border-box;
+    border: 10px solid black;}
+.face{
+    margin: 200px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.lips{
+    margin: 200px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+.eyes{
+    margin: 200px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 8/10;
+    grid-row: 1/2;
+}
+.beauty-tools{
+    margin: 200px 0;
+    margin-top: 0px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.hair{
+    margin: 200px 0;
+    margin-top: 0px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.nails{
+    margin: 200px 0;
+    margin-top: 0px;
+    width: 100%;
+    border: 10px solid #456990;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.face:hover, .lips:hover, .eyes:hover, .beauty-tools:hover, .hair:hover, .nails:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.face img, .lips img, .eyes img, .beauty-tools img, .hair img, .nails img{
+    width: 100%;
+}
