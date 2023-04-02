@@ -280,3 +280,128 @@ main section image{
 .face img, .lips img, .eyes img, .beauty-tools img, .hair img, .nails img{
     width: 100%;
 }
+
+/* TUTORIAL PAGE CSS */
+/* Top message */
+#tutorial-msg{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 5%;}
+.tut-models{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/6;
+    grid-row: 1/2;}
+.tut-background{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    grid-column: 5/11;
+    grid-row: 1/2;
+    margin-top: 250px;}
+.tut-msg{
+    color: #D81e5b;
+    grid-column: 5/11;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 25px;
+    margin-right: 25px;}
+
+/* Send Tutorial Banner */
+#tutorial-banner{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+}
+#tutorial-banner a{
+    display: block;
+    color: #87ff65;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: "Dosis", Helvetica, sans-serif;
+}
+#tutorial-banner a:hover{
+    color: #456990;
+}
+
+/* Tutorial Video Grid */
+#tutorial-videos-grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#tutorial-videos-grid a{
+    display: block;
+    color: #87ff65;
+    text-align: left;
+    margin-top: 10%;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: "Dosis", Helvetica, sans-serif;
+}
+#tutorial-videos-grid a:hover{
+    color: #D81e5b;
+}
+.rainbow-man, .smokey-girl, .brightpink-girl{
+    margin: 5%;
+}
+.rainbow-man{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.r-description{
+    color: #87ff65;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10%;
+    text-align: left;
+}
+.r-background{
+    background-color: black;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 5%;
+}
+.smokey-girl{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.s-description{
+    color: #87ff65;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 10%;
+    text-align: left;
+}
+.s-background{
+    background-color: black;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 5%;
+}
+.brightpink-girl{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.b-description{
+    color: #87ff65;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 10%;
+    text-align: left;
+}
+.b-background{
+    background-color: black;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 5%;
+}
